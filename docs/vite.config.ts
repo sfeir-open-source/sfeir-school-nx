@@ -1,10 +1,10 @@
 /// <reference types="vitest" />
-import { defineConfig } from 'vite';
-
 import { nxViteTsPaths } from '@nx/vite/plugins/nx-tsconfig-paths.plugin';
+import { defineConfig } from 'vite';
+import MarkdownHMR from './plugins/hmr-markdown';
 
 export default defineConfig({
-  cacheDir: '../../node_modules/.vite/docs',
+  cacheDir: '../node_modules/.vite/docs',
 
   server: {
     port: 4200,
@@ -16,5 +16,5 @@ export default defineConfig({
     host: 'localhost',
   },
 
-  plugins: [nxViteTsPaths()],
+  plugins: [nxViteTsPaths(), MarkdownHMR()],
 });

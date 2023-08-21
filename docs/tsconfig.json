@@ -26,6 +26,7 @@
   },
   "include": [
     "./main.ts",
+    "plugins/hmr-markdown.ts",
     "./vite.config.ts"
   ]
 }
