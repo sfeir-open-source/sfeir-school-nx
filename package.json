@@ -2,7 +2,9 @@
   "name": "sfeir-school-nx",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start:docs": "nx run docs:serve"
+  },
   "private": true,
   "dependencies": {
     "sfeir-school-theme": "^3.0.0",
