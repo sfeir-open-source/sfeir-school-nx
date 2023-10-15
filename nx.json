@@ -44,5 +44,6 @@
       "unitTestRunner": "vitest",
       "e2eTestRunner": "cypress"
     }
-  }
+  },
+  "defaultProject": "docs"
 }
