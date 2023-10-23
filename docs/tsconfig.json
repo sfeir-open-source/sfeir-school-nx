@@ -2,31 +2,21 @@
   "extends": "../tsconfig.base.json",
   "files": [],
   "compilerOptions": {
-    "checkJs": true,
     "target": "ESNext",
     "useDefineForClassFields": true,
     "module": "ESNext",
-    "lib": [
-      "ESNext",
-      "DOM"
-    ],
-    "moduleResolution": "Node",
     "strict": true,
+    "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "esModuleInterop": true,
+    "types": ["vite/client"],
     "noEmit": true,
+    "lib": ["ESNext", "DOM"],
+    "skipLibCheck": true,
+    "esModuleInterop": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "skipLibCheck": true,
-    "types": [
-      "vite/client"
-    ]
+    "noImplicitReturns": true
   },
-  "include": [
-    "./main.ts",
-    "plugins/hmr-markdown.ts",
-    "./vite.config.ts"
-  ]
+  "include": ["./main.ts", "plugins/hmr-markdown.ts", "./vite.config.ts", "src"]
 }
