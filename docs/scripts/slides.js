@@ -2,18 +2,18 @@ import { SfeirThemeInitializer } from '../web_modules/sfeir-school-theme/sfeir-s
 
 // One method per module
 function schoolSlides() {
-  return ['00-school/00-TITLE.md', '00-school/01-SPEAKER-TINE-KONDO.md'];
+  return ['school/XX-all.md'];
 }
 
 function introSlides() {
-  return ['intro/00-TITLE.md'];
+  return ['intro/00-TITLE.md', 'intro/01-SPEAKER-TINE-KONDO.md'];
 }
 
 function formation() {
   return [
     //
-    ...schoolSlides(), //
     ...introSlides(), //
+    ...schoolSlides(), //
   ].map(slidePath => {
     return { path: slidePath };
   });
