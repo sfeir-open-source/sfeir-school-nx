@@ -223,9 +223,9 @@ Notes:
 ![center](assets/images/school/nx-team-5.png)
 
 Most are:
-- **Google Developer Experts** for **Web, Angular** ![ w-400](assets/images/school/gde.png)
+- **Google Developer Experts** for **Web**, **Angular**, etc ![ w-400](assets/images/school/gde.png)
 
-- Popular **Opensource-projects Contributors** (`Angular Three.js`, `RxJs`, `RxAngular`, `etc`)
+- Popular **Opensource** projects **Contributors** (`Angular Three`, `RxJs`, `RxAngular`, `etc`)
 
 <br>
 
@@ -258,7 +258,7 @@ This means a **NodeJS runtime** is needed to use Nx.
 <br/>
 
 - Install **NodeJS** (preferably the latest `LTS` version) : https://nodejs.org/en/download
-- Install **Git** (optional, but recommanded) : https://git-scm.com/downloads
+- Install **Git** (optional, but recommended) : https://git-scm.com/downloads
 
 <br>
 <div class="flex-row">
@@ -278,7 +278,7 @@ This means a **NodeJS runtime** is needed to use Nx.
 
 ## Getting Started
 
-### Creating your Nx workspace (from Scratch)
+### Creating your **Nx workspace** (from Scratch)
 
 ```
 $ npx --yes create-nx-workspace@latest
@@ -307,7 +307,7 @@ Some explanations:
 
 ## Getting Started
 
-### Alternative command to create/add Nx workspace
+### Alternative command to create/add **Nx workspace**
 
 ```shell
 $ npx --yes nx@latest init
@@ -316,8 +316,10 @@ $ npx --yes nx@latest init
 
 👉🏾 Use this to add Nx to an existing (NodeJS-based or not) workspace:
 
+<br>
+
 Nx will try to **automatically detects** the stack and will **interactively configure** itself:
-<br><br>
+
 * Existing **Angular CLI**-based project ?
 
 * Existing **Create React App (CRA)**-based project ?
@@ -363,12 +365,12 @@ Node:          Configures a Node API application with your framework of choice.
 ##==##
 
 <!-- .slide: class="transition left" -->
-# Choosing a stack
+# Choosing your stack
 
 ##==##
 <!-- .slide: class="with-code consolas max-height" -->
 
-## Choosing a stack
+## Choosing your stack
 
 ### 👉🏾 First-class support for **Angular** with **modern tools**
 
@@ -389,7 +391,7 @@ Node:          Configures a Node API application with your framework of choice.
 
 ##--##
 
-## Choosing a stack
+## Choosing your stack
 
 ### 👉🏾 First-class support for **Angular** with **modern tools**
 
@@ -397,7 +399,7 @@ Node:          Configures a Node API application with your framework of choice.
 
 ##--##
 
-## Choosing a stack
+## Choosing your stack
 
 ### 👉🏾 First-class support for **Angular** with **modern tools**
 
@@ -415,7 +417,7 @@ Will create an Angular application, like the  **Angular CLI**, but much more cus
 
 ##--##
 
-## Choosing a stack
+## Choosing your stack
 
 ### 👉🏾 First-class support for **Angular** with **modern tools**
 
@@ -428,7 +430,7 @@ Like **_`Angular CLI`_**, but **waaaay more powerful** 💪🏾
 ##==##
 <!-- .slide: class="with-code consolas max-height" -->
 
-## Choosing a stack
+## Choosing your stack
 
 ### 👉🏾 First-class support for **React** with **modern tools**
 
@@ -449,7 +451,7 @@ Node:          Configures a Node API application with your framework of choice.
 
 ##--##
 
-## Choosing a stack
+## Choosing your stack
 
 ### 👉🏾 First-class support for **React** with **modern tools**
 
@@ -457,7 +459,7 @@ Node:          Configures a Node API application with your framework of choice.
 
 ##--##
 
-## Choosing a stack
+## Choosing your stack
 
 ### 👉🏾 First-class support for **React** with **modern tools**
 
@@ -476,7 +478,7 @@ Will create a React application, like the  **Create React App (CRA)**, but much 
 ##==##
 <!-- .slide: class="with-code consolas max-height" -->
 
-## Choosing a stack
+## Choosing your stack
 
 ### 👉🏾 First-class support for **Vue** with **modern tools**
 
@@ -497,7 +499,7 @@ Node:          Configures a Node API application with your framework of choice.
 
 ##--##
 
-## Choosing a stack
+## Choosing your stack
 
 ### 👉🏾 First-class support for **Vue** with **modern tools**
 
@@ -505,7 +507,7 @@ Node:          Configures a Node API application with your framework of choice.
 
 ##--##
 
-## Choosing a stack
+## Choosing your stack
 
 ### 👉🏾 First-class support for **Vue** with **modern tools**
 
@@ -520,7 +522,7 @@ Will create a Vue application, like the  **Create Vue CLI**, but much more custo
 ##==##
 <!-- .slide: class="with-code consolas max-height" -->
 
-## Choosing a stack
+## Choosing your stack
 
 ### 👉🏾 First-class support for **Node** with **modern tools**
 
@@ -541,7 +543,7 @@ Node:          Configures a Node API application with your framework of choice.
 
 ##--##
 
-## Choosing a stack
+## Choosing your stack
 
 ### 👉🏾 First-class support for **Node** with **modern tools**
 
@@ -549,7 +551,7 @@ Node:          Configures a Node API application with your framework of choice.
 
 ##--##
 
-## Choosing a stack
+## Choosing your stack
 
 ### 👉🏾 First-class support for **Node** with **modern tools**
 
@@ -566,7 +568,19 @@ Will create a Node application, very customizable:
 ##==##
 <!-- .slide: class="with-code consolas max-height" -->
 
-## Choosing a stack
+## Choosing your stack
+
+### 👉🏾 or do it later!
+
+* You can start with No stack ( **None** stack)
+
+* And add additional ones later, using **Nx plugins** (more on that later)
+
+##--##
+<!-- .slide: class="with-code consolas max-height" -->
+
+
+## Choosing your stack
 
 ### 👉🏾 or do it later!
 
@@ -584,18 +598,6 @@ Angular:       Configures a Angular application with modern tooling.
 Node:          Configures a Node API application with your framework of choice.
 ```
 <!-- .element: class="big-code" -->
-
-##--##
-
-## Choosing a stack
-
-### 👉🏾 or do it later!
-
-* You don't have to choose a stack right away when creating your workspace.
-
-* You can start with No stack
-
-* Additional stacks can always be added later, using Nx plugins (more on that later)
 
 ##==##
 
@@ -629,7 +631,7 @@ Standalone:                 Nx creates a single project and makes it fast.
 
 ## Types of Nx workspaces
 
-### Package-based Monorepos
+### **Package-based** Monorepos
 
 A style of **monorepo**  that focus on **flexibility** and **ease of adoption**. 
 
@@ -647,7 +649,7 @@ A style of **monorepo**  that focus on **flexibility** and **ease of adoption**.
 
 ## Types of Nx workspaces
 
-### Package-based Monorepos
+### **Package-based** Monorepos
 
 The folder structure of such workspaces is as below:
 
@@ -669,7 +671,7 @@ package-based-monorepo/
 
 ## Types of Nx workspaces
 
-### Package-based Monorepos
+### **Package-based** Monorepos
 
 <br>
 
@@ -683,7 +685,7 @@ package-based-monorepo/
 
 ## Types of Nx workspaces
 
-### Integrated Monorepos
+### **Integrated** Monorepos
 
 A style of **monorepo**  that focus on **efficiency** and **ease of maintenance**. 
 
@@ -699,7 +701,7 @@ A style of **monorepo**  that focus on **efficiency** and **ease of maintenance*
 
 ## Types of Nx workspaces
 
-### Integrated Monorepos
+### **Integrated** Monorepos
 
 The folder structure of such workspaces is as below:
 
@@ -728,7 +730,7 @@ integrated-monorepo/
 
 ## Types of Nx workspaces
 
-### Integrated Monorepos
+### **Integrated** Monorepos
 
 <br>
 
@@ -746,7 +748,7 @@ Notes:
 
 ## Types of Nx workspaces
 
-### Standalone Applications
+### **Standalone** Applications
 
 Similar to **integrated monorepo**  but focus on one **single application** 
 
@@ -762,7 +764,7 @@ Similar to **integrated monorepo**  but focus on one **single application**
 
 ## Types of Nx workspaces
 
-### Standalone Applications
+### **Standalone** Applications
 
 The folder structure of such workspaces is as below:
 
@@ -784,7 +786,7 @@ standalone-app/
 
 ## Types of Nx workspaces
 
-### Standalone Applications
+### **Standalone** Applications
 
 <br>
 
@@ -805,7 +807,6 @@ standalone-app/
 * Choose what you _think_ is best for you now, you can still change later
 
 * Nx provides **tutorials** and **tools** to help you in the process 😉
- <!-- .element: class="list-fragment" -->
 
     * [Convert from a Standalone Repository to an Integrated Repository](https://nx.dev/recipes/tips-n-tricks/standalone-to-integrated)
 
@@ -901,9 +902,9 @@ https://nx.dev/reference/nx-json
 
 ### **`project.json`** : **Project-level** configuration file
 
-👉🏾 Inherits settings from the `nx.json`
+👉🏾 Inherits settings from the **_`nx.json`_**
 
-👉🏾 Takes precedence over the `nx.json`
+👉🏾 Takes precedence over the **_`nx.json`_**
 
 ```json [2|3|4|5|6|7-10|11-26]
 {
@@ -1038,7 +1039,11 @@ Examples:
 
 ```shell
 $ npm install --save-dev @nx/angular  
+$ npm install --save-dev @nx/react  
+$ npm install --save-dev @nx/vue
+
 $ npm install --save-dev @nxrocks/nx-spring-boot  
+$ npm install --save-dev @nx-dotnet/core
 ```
 <!-- .element: class="big-code" -->
 
@@ -1085,7 +1090,7 @@ $ npm install --save-dev @nxrocks/nx-spring-boot
 
 ## Nx Plugins
 
-### 👉🏾 **Local** (aka **Workspace**) Plugins
+### 👉🏾 **Local** (a.k.a **Workspace**) Plugins
 
 * Created and maintained by **You and your team**!
 
@@ -1101,7 +1106,7 @@ $ npm install --save-dev @nxrocks/nx-spring-boot
 
 ## Nx Plugins
 
-### How to discover them?
+### How to **discover** them?
 
 * Run **_`nx list`_** within your workspace
 
@@ -1163,7 +1168,7 @@ $ npx nx list
 
 ## Nx Plugins
 
-### How to discover them?
+### How to **discover** them?
 
 * https://nx.dev/plugin-registry 
 
@@ -1175,7 +1180,7 @@ $ npx nx list
 
 ## Nx Plugins
 
-### How to create Nx plugins ?
+### How to **create** them ?
 
 Super easy 😉
 
@@ -1298,9 +1303,9 @@ export default async function myGenerator(tree: Tree, options: any) {
 
 * **Plugin Generators** are available when an Nx plugin has been installed in your workspace.
 
-* **Local** (_AKA_ **Workspace**) **Generators** are generators that you can create for your own workspace.
+* **Local** (_a.k.a_ **Workspace**) **Generators** are generators that you can create for your own workspace.
 
-* **Update** (_AKA_ **Migration**) **Generators** are invoked by Nx plugins when you update Nx to keep your config files in sync with the latest versions of third party tools.
+* **Update** (_a.k.a_ **Migration**) **Generators** are invoked by Nx plugins when you update Nx to keep your config files in sync with the latest versions of third party tools.
 
 Notes:
 
@@ -1317,9 +1322,9 @@ Notes:
 Generators are invoked using the _**`nx generate`**_ command.
 
 ```shell
-npx nx generate [plugin]:[generator-name] [options] // for plugin generators
+$ npx nx generate [plugin]:[generator-name] [options] // for plugin generators
 
-npx nx generate [generator-name] [options]          // for local generators
+$ npx nx generate [generator-name] [options]          // for local generators
 ```
 <!-- .element: class="big-code" -->
 
@@ -1520,7 +1525,7 @@ $ npx nx package myproject
 ![center](assets/images/school/project-graph-updated.svg)
 
 * **Explicit dependencies**  -> deducted by Nx (or its plugins) based on the files
-* **Impplicit dependencies** -> defined by the User, in the __**`project.json`**__ or __**`nx.json`**__
+* **Implicit dependencies** -> defined by the User, in the **_`project.json`_** or _**`nx.json`_**
 
 ##==##
 
@@ -1534,7 +1539,7 @@ Nx (or a plugin)  uses various sources of information to create the graph of dep
 
 <br>
 
-* **Package dependencies** defined in the **_`package.json`_** file
+1. **Package dependencies** defined in the **_`package.json`_** file (natively supported by Nx)
 
 ```json
 {
@@ -1544,7 +1549,7 @@ Nx (or a plugin)  uses various sources of information to create the graph of dep
 }
 ```
 
-* or in the _**`pom.xml`**_ file for each project.
+* or in the _**`pom.xml`**_ file (via a community plugin)
 
 ```xml
 	<dependencies>
@@ -1556,7 +1561,11 @@ Nx (or a plugin)  uses various sources of information to create the graph of dep
 	</dependencies>
 ```
 
-* or in the **_`build.gradle`_**, **_`cargo.toml`_**, **_`pubspec.yaml`_**,... file for each project.
+* or in the **_`build.gradle`_**, **_`cargo.toml`_**, **_`pubspec.yaml`_**,... files (via a community plugin).
+
+Notes:
+
+https://nx.dev/concepts/more-concepts/how-project-graph-is-built
 
 ##--##
 
@@ -1575,7 +1584,7 @@ Nx (or a plugin)  uses various sources of information to create the graph of dep
 <br>
 <br>
 
-Example in Typescript:
+Example in **Typescript**/**Javascript**:
 
 <br>
 
@@ -1586,7 +1595,7 @@ import { something } from '@myorg/awesome-library';
 
 <br>
 
-Can be any **source file** (Java, Go, etc), provided you can statically analyzed it
+Can be any **source file** (Java, Go, etc), provided you can statically analyze it
 
 ##--##
 
@@ -1698,7 +1707,7 @@ Nx reads the **workspace configuration** (**_`nx.json`_**) file to create depend
 
 ### Graph Exploration
 
-To explore the project graph, simply run: __**`nx graph`**__
+To explore the project graph, simply run: **_`nx graph`_**
 
 ```shell
 $ npx nx graph [--affected]
@@ -1888,9 +1897,9 @@ Some main options:
 
 * **`--targets|--target=<string>`** : Task(s) to run for affected projects
 
-* **`--projects=<string>`** : A pattern (regex) or comma-separated list of projects to **include**
+* **`--projects=<string>`** : A pattern or comma-separated list of projects to **include**
 
-* **_`--exclude=<string>`_** : A pattern (regex) or comma-separated list of projects to **exclude**
+* **_`--exclude=<string>`_** : A pattern or comma-separated list of projects to **exclude**
 
 * **_`--parallel=<number|false>`_** : Max number of parallel processes (3 by default)
 
@@ -1920,7 +1929,6 @@ Some main options:
 
 Command that **runs** one or multiple **targets** for **affected** projects
 
-<br>
 
 ```shell
 $ npx nx affected <target(s)> [options]
@@ -1931,15 +1939,15 @@ $ npx nx affected <target(s)> [options]
 
 Some main options:
 
-* **`--base=<string>`** : Base of the current Git branch (usually `main` or `master`)
+* **`--base=<string>`** : Base of the current Git branch (usually **_`main`_** or **_`master`_**)
 
-* **`--head=<string>`** : Latest commit of the current branch (usually `HEAD`)
+* **`--head=<string>`** : Latest commit of the current branch (usually **_`HEAD`_**)
 
 * **`--targets|--target=<string>`** : Task(s) to run for affected projects
 
-* **`--projects=<string>`** : A pattern (regex) or comma-separated list of projects to **include**
+* **`--projects=<string>`** : A pattern or comma-separated list of projects to **include**
 
-* **_`--exclude=<string>`_** : A pattern (regex) or comma-separated list of projects to **exclude**
+* **_`--exclude=<string>`_** : A pattern or comma-separated list of projects to **exclude**
 
 * **_`--parallel=<number|false>`_** : Max number of parallel processes (3 by default)
 
@@ -2208,7 +2216,7 @@ It allows you to:
 * **share the computation cache across your team and CI**
 
 
-It acts like an **orchestrator** that distibutes tasks across various machines (aka **agents**)
+It acts like an **orchestrator** that distibutes tasks across various machines (a.k.a **agents**)
 
 Notes:
 
@@ -2241,7 +2249,7 @@ You can use Nx Cloud :
 
 ### Setting up **Remote Caching** & **Distributed Task Execution** with **Nx Cloud**
 
-To get started with Nx Cloud, run the following command:
+To get started with **Nx Cloud**, run the following command:
 
 ```shell [1|3]
 $ npx nx connect
@@ -2270,7 +2278,7 @@ Claiming your workspace allows you to:
 
 ### Setting up your **CI Workflow**
 
-Nx supports many CI plaforms to run your jobs:
+Nx supports many popular CI plaforms to run your jobs:
 
 ![](assets/images/school/ci-platforms.png)
 
@@ -2284,7 +2292,7 @@ Those are the actual **machines** or **agents** that will run your tasks
 
 ### Setting up your **CI Workflow**
 
-Nx can help generate the necessary configuration to get started
+Nx can help generate the initial configuration to get you started
 
 ```shell [1|5|6-10]
 $ npx nx generate @nx/workspace:ci-workflow
@@ -2309,3 +2317,42 @@ $ npx nx generate @nx/workspace:ci-workflow
 ### &nbsp;
 
 ![center](assets/images/school/distributed-caching-and-task-execution.svg)
+
+##--##
+
+<!-- .slide: class="with-code consolas max-height" -->
+
+## Continuous Integration with Nx
+
+### **Nx Agents** (early preview)
+
+📢 Heads Up!  Nx is working on its own **CI** platform, called **Nx Agents**!
+
+![center](assets/images/school/distributed-task-execution-on-workflows.svg)
+
+##--##
+
+<!-- .slide: class="with-code consolas max-height" -->
+
+## Continuous Integration with Nx
+
+### **Nx Agents** (early preview)
+
+This will bring many advantages:
+
+* **Managed Agents**, seamleass configuration
+
+* **Intelligent Dynamic Scaling**, based on PR size
+
+* **Automatic Task Splitting**, for example splitting a large E2E test file
+
+* **Flaky Task Re-Running**,  enhancing reliability
+
+<br>
+<br>
+
+⚠️ This feature is still in **work-in-progress**, with a public launch anticipated in **Feb 2024**.
+
+Notes:
+
+https://nx.dev/ci/features/nx-agents
