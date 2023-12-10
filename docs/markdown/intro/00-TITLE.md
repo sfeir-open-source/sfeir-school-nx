@@ -5,11 +5,11 @@
 ##==##
 
 <!-- .slide: class="transition-bg-green-5" -->
-# Déroulement de la formation
+# Before we start
 
 <p class="center">
-C'est quand la pause ?<br>
-Quand est-ce qu'on mange ?<br>
-Tour de table ...
+When is break time ?<br>
+When is lunch time ?<br>
+Quick Roundtable... 
 </p>
 <br><br>
