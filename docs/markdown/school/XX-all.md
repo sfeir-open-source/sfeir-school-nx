@@ -153,6 +153,13 @@ Supports definition of rules to constrain dependency relationships within the re
 <img class="w-900" src="./assets/images/school/code-generation.svg">
 </div>
 
+##==##
+
+## What is Nx?
+
+### 👉🏾 Nx is an **healthy**, very **actively maintained** OSS project
+
+![w-1000 full-center](assets/images/school/nx-project-health.png)
 
 ##==##
 
@@ -170,7 +177,7 @@ Supports definition of rules to constrain dependency relationships within the re
 
 - Written in **Typescript**, **Javascript**, & **Rust**
 
-- Current version: 17.x.x, in **October 2023**
+- Current version: 17.2.x, since **December 2023**
 
 ##--##
 
@@ -574,7 +581,7 @@ Will create a Node application, very customizable:
 
 * You can start with No stack ( **None** stack)
 
-* And add additional ones later, using **Nx plugins** (more on that later)
+* And add them later, using **Nx plugins** (more on that later)
 
 ##--##
 <!-- .slide: class="with-code consolas max-height" -->
@@ -2211,10 +2218,11 @@ When implemented well, continuous integration (CI) allows a team of developers t
 
 It allows you to:
 
-* **Run any command across multiple machines**  
+* **Run** any command cross **multiple machines**  
 
-* **share the computation cache across your team and CI**
+* **Share** the **computation cache** across **your team and CI**
 
+<br>
 
 It acts like an **orchestrator** that distibutes tasks across various machines (a.k.a **agents**)
 
