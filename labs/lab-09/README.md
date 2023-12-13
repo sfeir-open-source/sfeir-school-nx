@@ -1,10 +1,16 @@
 # Lab 09:  Playing with Nx Console
 
-/!\ Before you start, please open the `package.json` in `workspace/` and note down the version of existing `@nx/*` packages present.
+> ⚠️ Before you start
+>
+> Please open the `package.json` in `workspace/` and **note** the version of `"nx"` package from the `devDependencies` section.
+>
+> In this lab, we will add addtional `"@nx/*"` packages, and it is **highly recommended** to use **the same version** as `"nx"` for all of them.
+>
+> If your `"@nx/*"` versions do not match the version of `"nx"` in your repository, you can encounter some **difficult to debug errors**.
+>
+> So always [Keep Nx versions in sync!](https://nx.dev/recipes/tips-n-tricks/keep-nx-versions-in-sync)
 
-In the this lab, we will add new `"@nx/*"` dependencies, and it is recommended to use **the same version** to avoid compatibility issues.
-
-/!\ The bellow instructions are for `VSCode`'s `Nx Console` integration, they might slightly defer if you are using a different editor (Intellij or Neovim)
+⚠️ The bellow instructions are for `VSCode`'s `Nx Console` integration, they might slightly defer if you are using a different editor (Intellij or Neovim)
 
 0. Open `workspace/` folder in VSCode
 

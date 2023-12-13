@@ -1,20 +1,34 @@
-# Lab 03: _`nx run-many`_ command
+# Lab 04: _`nx list`_ command
 
-0. Go to`workspace/` folder in VSCode or IDE of choice
+We will be working on this workspace:
 
-## Running `build` task on all projects`
+![Alt text](../lab-common/lab-nx-multi-stacks-monorepo.png)
+
+## Lab Setup
+
+1. Clone the repo with: `git clone https://github.com/tinesoft/nx-multi-stacks-monorepo.git`
+2. Open the folder in VSCode or IDE of choice
+3. Run `npm ci` to install  necessary **NPM** dependencies
+
+## Listing plugins currently installed in the workspace
 
 1. Open a Terminal
-2. Run "`npx nx run-many --target build`"
-3. Run again "`npx nx run-many --target build`" executor to see **computation caching** in action 
-4. Run "`npx nx run-many --target build --skip-nx-cache`" 
-  * what do you notice?
-5. Run again "`npx nx run-many --target build --parallel 4`" executor to see **parallelization in action** in action 
+2. Run "`npx nx list`"
+3. How many plugins are currently installed in the workspace?
+4. What are they?
 
-
-## Running `build` task on  specific projects`
+## Listing capabilities of the `nx` plugin
 
 1. Open a Terminal within this repository
-2. Run "`npx nx run-many --target build --projects="nx-*"`"
-3. Run "`npx nx run-many --target build --exclude="nx-melos"`"
+2. Run "`npx nx list nx`"
+3. How many **generators** are available in the `"nx"` plugin?
+4. How many **executors** are available in the `"nx"` plugin?
+5. What generator can you use to **_run any command_** with Nx?
 
+## Listing capabilities of the `@nx/angular` plugin
+
+1. Open a Terminal within this repository
+2. Run "`npx nx list @nx/angular`"
+3. What can you  **generate** with the plugin?
+4. What tasks can you **execute** with the plugin?
+5. What generator can you use to **_run any command_** with Nx?

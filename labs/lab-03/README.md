@@ -1,20 +1,15 @@
-# Lab 03: _`nx list`_ command
+# Lab 03: Playing with Nx Plugins, Generators & Executors (Advanced)
 
-0. Go to`workspace/` folder in VSCode or IDE of choice
+In this lab, we will recreate this more advanced Nx workspace:
 
-## Listing plugins currently installed in the workspace
+![Alt text](../lab-common/lab-nx-multi-stacks-monorepo.png)
 
-1. Open a Terminal within this repository
-2. Run "`npx nx list`"
-3. How many plugins are currently installed in the workspace?
-4. What are they?
+It contains a Nx **integrated** monorepo, with support for **multiple stacks**:
+- Angular - using the official plugin `@nx/angular`
+- React - using the official plugin `@nx/react`
+- Spring Boot - using the community plugin [`@nxrocks/nx-spring-boot`](https://github.com/tinesoft/nxrocks/blob/develop/packages/nx-spring-boot)
 
+## Lab Setup
 
-## Listing capabilities of the `nx` plugin
-
-1. Open a Terminal within this repository
-2. Run "`npx nx list nx`"
-3. How many **generators** are available in the `"nx"` plugin?
-4. How many **executors** are available in the `"nx"` plugin?
-5. What generator can you use to **run any command** with Nx?
-
+1. Go to `https://github.com/tinesoft/nx-multi-stacks-monorepo#how-to-recreate-this-exact-workspace`
+2. Follow the instructions in the **"How to recreate this exact workspace?"** section of the `README.md`

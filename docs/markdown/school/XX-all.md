@@ -825,7 +825,7 @@ standalone-app/
 
 <!-- .slide: class="exercice" -->
 
-# Creating empty Nx workspace
+# Creating empty Nx workspaces
 
 ## Lab 01
 
@@ -1504,7 +1504,7 @@ $ npx nx package myproject
 
 <!-- .slide: class="exercice" -->
 
-# Nx Plugins, Generators & Executors in action
+# Nx Plugins, Generators & Executors in action (Basic)
 
 ## Lab 02
 
@@ -1736,6 +1736,19 @@ https://t.ly/vWcgr
 
 ##==##
 
+<!-- .slide: class="exercice" -->
+
+# Nx Plugins, Generators & Executors in action (Advanced)
+
+## Lab 03
+
+<br>
+
+1. Open **`sfeir-school-nx/labs/lab-03/README.md`**
+2. Follow the instructions
+
+##==##
+
 <!-- .slide: class="transition left" -->
 
 # Nx Main Commands
@@ -1771,12 +1784,11 @@ $ npx nx list [plugin-package-name]
 <!-- .slide: class="exercice" -->
 # _`nx list`_ command
 
-## Lab 03
+## Lab 04
 
 <br>
 
-
-1. Open **`sfeir-school-nx/labs/lab-03/README.md`**
+1. Open **`sfeir-school-nx/labs/lab-04/README.md`**
 2. Follow the instructions
 
 ##==##
@@ -1807,19 +1819,6 @@ $ npx nx g <plugin-package-name>:<generator-name>
 
 ##==##
 
-<!-- .slide: class="exercice" -->
-
-# _`nx generate`_ command
-
-## Lab 04
-
-<br>
-
-1. Open **`sfeir-school-nx/labs/lab-04/README.md`**
-2. Follow the instructions
-
-##==##
-
 <!-- .slide: class="with-code consolas" -->
 
 ## Nx Main Commands
@@ -1845,26 +1844,13 @@ Target definitions can be found in:
 
 ##==##
 
-<!-- .slide: class="exercice" -->
-
-# _`nx run`_ command
-
-## Lab 05
-
-<br>
-
-1. Open **`sfeir-school-nx/labs/lab-05/README.md`**
-2. Follow the instructions
-
-##==##
-
 <!-- .slide: class="with-code consolas" -->
 
 ## Nx Main Commands
 
 ### **_`nx run-many`_**
 
-Command that **runs** one or multiple **target** for **multiple** listed projects
+Command that **runs** one or multiple **targets** for **multiple** listed projects
 
 <br>
 
@@ -1919,11 +1905,11 @@ Some main options:
 
 # _`nx run-many`_ command
 
-## Lab 06
+## Lab 05
 
 <br>
 
-1. Open **`sfeir-school-nx/labs/lab-06/README.md`**
+1. Open **`sfeir-school-nx/labs/lab-05/README.md`**
 2. Follow the instructions
 
 ##==##
@@ -1966,6 +1952,50 @@ Some main options:
 <!-- .slide: class="exercice" -->
 
 # _`nx affected`_ command
+
+## Lab 06
+
+<br>
+
+1. Open **`sfeir-school-nx/labs/lab-06/README.md`**
+2. Follow the instructions
+
+##==##
+
+<!-- .slide: class="with-code consolas" -->
+
+## Nx Main Commands
+
+### **_`nx graph`_**
+
+Command that **outputs** the graph of dependencies either into a file or in the Browser
+
+
+```shell
+$ npx nx graph [options]
+```
+<!-- .element: class="big-code" -->
+
+<br>
+
+Some main options:
+
+* **`--affected`** :  Highlight projects affected by current changes in the workspace
+
+* **`--watch`** : Watch for changes to project graph and update in-browser
+
+* **`--file`** : Output to a file (can be a **_`JSON`_** or **_`HTML`_** file)
+
+* **`--base=<string>`** : Base of the current Git branch (usually **_`main`_** or **_`master`_**)
+
+* **`--head=<string>`** : Latest commit of the current branch (usually **_`HEAD`_**)
+
+
+##==##
+
+<!-- .slide: class="exercice" -->
+
+# _`nx graph`_ command
 
 ## Lab 07
 
@@ -2326,7 +2356,20 @@ $ npx nx generate @nx/workspace:ci-workflow
 
 ![center](assets/images/school/distributed-caching-and-task-execution.svg)
 
-##--##
+##==##
+
+<!-- .slide: class="exercice" -->
+
+# Setting up Nx Cloud and CI Workflow
+
+## Lab 10
+
+<br>
+
+1. Open **`sfeir-school-nx/labs/lab-10/README.md`**
+2. Follow the instructions
+
+##==##
 
 <!-- .slide: class="with-code consolas max-height" -->
 
