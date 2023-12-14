@@ -25,9 +25,9 @@ We will be working on this workspace:
 ### Running `build` target on specific projects
 
 1. Open a Terminal
-2. Run "`npx nx run-many -t build --projects=ng* --skip-nx-cache`"
-3. Run "`npx nx run-many -t build --exclude=react* --skip-nx-cache`"
-4. Run "`npx nx run-many -t build --projects=boot* --skip-nx-cache`"
+2. Run "`npx nx run-many -t build --projects="ng*" --skip-nx-cache`"
+3. Run "`npx nx run-many -t build --exclude="react*" --skip-nx-cache`"
+4. Run "`npx nx run-many -t build --projects="boot*" --skip-nx-cache`"
 
 ## Running  **multiple targets** on all projects
 
@@ -44,6 +44,6 @@ We will be working on this workspace:
 ### Running `build`, `test` task on specific projects
 
 1. Open a Terminal
-2. Run "`npx nx run-many -t build,test --projects=ng* --skip-nx-cache`"
-3. Run "`npx nx run-many -t build,test --exclude=react* --skip-nx-cache`"
-4. Run "`npx nx run-many -t build,test --projects=boot* --skip-nx-cache`"
+2. Run "`npx nx run-many -t build,test --projects="ng*" --skip-nx-cache`"
+3. Run "`npx nx run-many -t build,test --exclude="react*" --skip-nx-cache`"
+4. Run "`npx nx run-many -t build,test --projects="boot*" --skip-nx-cache`"

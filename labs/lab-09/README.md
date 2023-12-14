@@ -27,7 +27,7 @@ Open `workspace/` folder in VSCode
     * `e2eTestRunner` → Choose `cypress`
     * `linter` → Choose `eslint`
     * `style` → Choose `scss`
-5. Select again the line `Execute: nx @nx/angular:init` and  press `ENTER` to trigger the generation 
+5. Select again the line `Execute: nx @nx/angular:init` and  press `ENTER` to trigger the generation
 
 ## Generating an application in the workspace
 

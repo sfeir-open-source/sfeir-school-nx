@@ -23,7 +23,7 @@ We will be working on this workspace:
 
 ## Migrating **interactivelly** to latest version of Nx
 
-1. ⚠️ Reset the current workspace status by running Git command `git reset --hard origin/main` 
+1. ⚠️ Reset the current workspace status by running Git command `git reset --hard origin/main`
 2. Run "`npx nx migrate latest --interactive` to migrate interactively
     * You will be prompted to opt-in/out to specific packages udpdates
     * Answer `Yes` for all prompts

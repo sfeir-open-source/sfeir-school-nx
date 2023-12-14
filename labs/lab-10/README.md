@@ -15,7 +15,7 @@ We will be working on this workspace:
 1. Run `npx nx connect`
 2. Inspect what changed in the workspace
 
-## Creating a CI workflow file 
+## Creating a CI workflow file
 
 1. Run `npx nx g @nx/workspace:ci-workflow`
     * CI Provider: `Github Action`
