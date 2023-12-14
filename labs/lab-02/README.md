@@ -38,10 +38,8 @@
 
 1. Open a Terminal
 2. Run "`npx nx generate @nx/angular:application`" and answer the prompts
-
-  * Application Name: `ngapp`
-  * Leave the default options as-is
-
+    * Application Name: `ngapp`
+    * Leave the default options as-is
 3. Inspect what has changed after running the generator
 4. Commit the changes (for e.g with `git add --all && git commit -m "chore: generate basic angular application"`)
 
@@ -67,12 +65,10 @@
 
 1. Open a Terminal
 2. Run "`npx nx generate @nxrocks/nx-spring-boot:project`" and answer the prompts
-
-  * Project Name: `bootapp`
-  * Project Type: `application`
-  * Leave the default options as-is
-  * Dependencies : `web`, `jpa`, `h2`, `actuator`, `devtools` (you can use the search)
-
+    * Project Name: `bootapp`
+    * Project Type: `application`
+    * Leave the default options as-is
+    * Dependencies : `web`, `jpa`, `h2`, `actuator`, `devtools` (you can use the search)
 3. Inspect what has changed after running the generator
 4. Commit the changes (for e.g with `git add --all && git commit -m "chore: generate basic angular application"`)
 

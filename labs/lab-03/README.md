@@ -5,6 +5,7 @@ In this lab, we will recreate this more advanced Nx workspace:
 ![Alt text](../lab-common/lab-nx-multi-stacks-monorepo.png)
 
 It contains a Nx **integrated** monorepo, with support for **multiple stacks**:
+
 - Angular - using the official plugin `@nx/angular`
 - React - using the official plugin `@nx/react`
 - Spring Boot - using the community plugin [`@nxrocks/nx-spring-boot`](https://github.com/tinesoft/nxrocks/blob/develop/packages/nx-spring-boot)

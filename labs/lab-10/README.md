@@ -21,4 +21,3 @@ We will be working on this workspace:
     * CI Provider: `Github Action`
 2. Inspect what changed in the workspace
 3. (Optional Step) Follow the link to **claim the workspace** (required an account on https://cloud.nx.app)
-

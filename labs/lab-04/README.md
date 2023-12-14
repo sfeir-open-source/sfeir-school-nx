@@ -14,21 +14,21 @@ We will be working on this workspace:
 
 1. Open a Terminal
 2. Run "`npx nx list`"
-3. How many plugins are currently installed in the workspace?
-4. What are they?
+    * How many plugins are currently installed in the workspace?
+    * What are they?
 
 ## Listing capabilities of the `nx` plugin
 
 1. Open a Terminal within this repository
 2. Run "`npx nx list nx`"
-3. How many **generators** are available in the `"nx"` plugin?
-4. How many **executors** are available in the `"nx"` plugin?
-5. What generator can you use to **_run any command_** with Nx?
+    * How many **generators** are available in the `"nx"` plugin?
+    * How many **executors** are available in the `"nx"` plugin?
+    * What generator can you use to **_run any command_** with Nx?
 
 ## Listing capabilities of the `@nx/angular` plugin
 
 1. Open a Terminal within this repository
 2. Run "`npx nx list @nx/angular`"
-3. What can you  **generate** with the plugin?
-4. What tasks can you **execute** with the plugin?
-5. What generator can you use to **_run any command_** with Nx?
+    * What can you  **generate** with the plugin?
+    * What tasks can you **execute** with the plugin?
+    * What generator can you use to **_run any command_** with Nx?

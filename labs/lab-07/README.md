@@ -63,6 +63,6 @@ We will be working on this workspace:
 2. Click on **Show all tasks** is still selected
 3. Select `build` in the **Target Name** dropdown
 4. Click on the `reactapp:build:production` node
-8. Answer the following questions:
+5. Answer the following questions:
     * What **executor** is responsible for running that task ? _(💡 Its name starts with **@nx/w...**)_
     * What are its inputs ? _(💡 Click on the **INPUTS** dropdown in the popup and Observe the files listed)_

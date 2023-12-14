@@ -21,7 +21,6 @@ We will be working on this workspace:
 5. Run the command `npx nx run-many -t build,test` to make sure everything still **builds** and that **tests** still pass
 6. Delete the `migration.json` file (no longer needed, **should not be versioned**)
 
-
 ## Migrating **interactivelly** to latest version of Nx
 
 1. ⚠️ Reset the current workspace status by running Git command `git reset --hard origin/main` 
