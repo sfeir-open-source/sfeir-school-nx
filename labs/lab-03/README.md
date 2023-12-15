@@ -12,5 +12,5 @@ It contains a Nx **integrated** monorepo, with support for **multiple stacks**:
 
 ## Lab Setup
 
-1. Go to `https://github.com/tinesoft/nx-multi-stacks-monorepo#how-to-recreate-this-exact-workspace`
+1. Go to [`https://github.com/tinesoft/nx-multi-stacks-monorepo#how-to-recreate-this-exact-workspace`](https://github.com/tinesoft/nx-multi-stacks-monorepo#how-to-recreate-this-exact-workspace)
 2. Follow the instructions in the **"How to recreate this exact workspace?"** section of the `README.md`
