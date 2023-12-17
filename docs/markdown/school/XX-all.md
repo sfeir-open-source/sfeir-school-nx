@@ -193,7 +193,7 @@ Notes:
 
 ## Nx Core team
 
-![center](assets/images/school/nx-team-1.png)
+![w-1000 center](assets/images/school/nx-team-1.png)
 
 
 Notes:
@@ -203,33 +203,19 @@ Notes:
     - Recognized opensource maintainers
 
 
-##--##
+##==##
 
 ## Nx Core team
 
-![center](assets/images/school/nx-team-2.png)
-
-##--##
-
-## Nx Core team
-
-![center](assets/images/school/nx-team-3.png)
-
-
-##--##
-
-## Nx Core team
-
-![center](assets/images/school/nx-team-4.png)
-
+![w-1000 center](assets/images/school/nx-team-2.png)
 
 ##==##
 
 ## Nx Core team
 
-![center](assets/images/school/nx-team-5.png)
+![w-1000 center](assets/images/school/nx-team-3.png)
 
-Most are:
+Many are:
 - **Google Developer Experts** for **Web**, **Angular**, etc ![ w-400](assets/images/school/gde.png)
 
 - Popular **Opensource** projects **Contributors** (`Angular Three`, `RxJs`, `RxAngular`, `etc`)
