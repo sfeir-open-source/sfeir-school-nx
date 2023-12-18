@@ -3,7 +3,20 @@ import { defineConfig } from 'vitest/config';
 import MarkdownHMR from './plugins/hmr-markdown';
 
 export default defineConfig({
+  root: __dirname,
+  build: {
+    outDir: '../dist/docs',
+    reportCompressedSize: true,
+    commonjsOptions: {
+      transformMixedEsModules: true,
+    },
+  },
   test: {
+    reporters: ['default'],
+    coverage: {
+      reportsDirectory: '../coverage/docs',
+      provider: 'v8',
+    },
     globals: true,
     cache: {
       dir: '../node_modules/.vitest',
