@@ -33,9 +33,7 @@ https://t.ly/AyiAm
 ## <cite>What is Nx?</cite>
 
 <blockquote cite=">https://nx.dev">
-    <p style="line-height: 5rem;">
-    Nx is a powerful open-source <strong>build system</strong> that provides <strong>tools</strong> and <strong>techniques</strong> for enhancing <strong>developer productivity, optimizing CI performance, and maintaining code quality</strong>.
-    </p>
+    <img class="center" src="./assets/images/school/nx-definition-dark.png">
 </blockquote>
 <footer>— from <cite>https://nx.dev</cite></footer>
 
@@ -46,11 +44,13 @@ It can automatically migrate the dependencies and code linked to the tools and f
 It provides local/remote caching, paralleziation to help you save time, by caching and serving the result of already ran tasks or by running them in parallel.
 It provides commands to help you understand and visualize how projects within your workspace are connected one with the other
 
+- https://nx.dev/
+
 ##==##
 
 <!-- .slide: class="transition top bg-white" -->
 
-# meh? 🤔
+# Let's break it down 📖
 
 ##==##
 
