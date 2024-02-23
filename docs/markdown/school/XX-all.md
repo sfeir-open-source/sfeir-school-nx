@@ -626,7 +626,7 @@ Standalone:                 Nx creates a single project and makes it fast.
 
 ### **Package-based** Monorepos
 
-A style of **monorepo**  that focus on **flexibility** and **ease of adoption**. 
+A style of **monorepo**  that focus on **flexibility** and **ease of adoption**.
 
 <br>
 
@@ -1518,7 +1518,7 @@ $ npx nx package myproject
 ![center](assets/images/school/project-graph-updated.svg)
 
 * **Explicit dependencies**  -> deducted by Nx (or its plugins) based on the files
-* **Implicit dependencies** -> defined by the User, in the **_`project.json`_** or _**`nx.json`_**
+* **Implicit dependencies** -> defined by the User, in the **_`project.json`_** or **_`nx.json`_**
 
 ##==##
 
@@ -1673,7 +1673,7 @@ Nx reads the **project configuration** (**_`project.json`_**) file to create dep
 
 ### Task dependencies
 
-Nx reads the **workspace configuration** (**_`nx.json`_**) file to create dependencies between tasks
+Nx reads the **`targetDefaults`** section in the **workspace configuration** (**_`nx.json`_**) file to create dependencies between tasks
 
 ```json [1|4-6|10-12]
   "targetDefaults": {
@@ -1691,6 +1691,48 @@ Nx reads the **workspace configuration** (**_`nx.json`_**) file to create depend
     }
   }
 ```
+##--##
+
+<!-- .slide: class="with-code consolas" -->
+
+## Nx Project Graph
+
+### Task dependencies
+
+Nx can also leverage the **`plugins`** declared in the **workspace configuration** (**_`nx.json`_**) file, to **infer** tasks and dependencies between them.
+<br>
+
+```json [1|4-6|10-12]
+  "plugins": [
+    "@nxrocks/nx-spring-boot",
+    "@nx/vite"
+  ]
+```
+<!-- .element: class="big-code" -->
+
+<br>
+
+Each plugin does it differently, relying for eg, on configuration files present in the workspace (`vite.config.ts`, `pom.xml`, etc)
+
+<br>
+
+This feature is called **task inferring** and was introduced in Nx v18 (`Project Crystal` 💎)
+
+##--##
+
+<!-- .slide: class="with-code consolas" -->
+
+## Nx Project Graph
+
+### Task dependencies
+
+This is the order of precedence in which Nx configures tasks:
+
+![center](assets/images/school/nx-tasks-order.png)
+
+Notes:
+
+https://nx.dev/concepts/inferred-tasks#overriding-inferred-task-configuration
 
 ##==##
 
