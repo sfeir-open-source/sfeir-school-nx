@@ -6,12 +6,12 @@
       "inputs": ["production", "^production"],
       "cache": true
     },
-    "lint": {
-      "inputs": ["default", "{workspaceRoot}/.eslintrc.json", "{workspaceRoot}/.eslintignore"],
-      "cache": true
-    },
     "@nx/vite:test": {
       "inputs": ["default", "^production"],
+      "cache": true
+    },
+    "@nx/eslint:lint": {
+      "inputs": ["default", "{workspaceRoot}/.eslintrc.json", "{workspaceRoot}/.eslintignore"],
       "cache": true
     }
   },
@@ -33,5 +33,17 @@
       "e2eTestRunner": "cypress"
     }
   },
-  "defaultProject": "docs"
+  "defaultProject": "docs",
+  "plugins": [
+    {
+      "plugin": "@nx/vite/plugin",
+      "options": {
+        "buildTargetName": "build",
+        "previewTargetName": "preview",
+        "testTargetName": "test",
+        "serveTargetName": "serve",
+        "serveStaticTargetName": "serve-static"
+      }
+    }
+  ]
 }
